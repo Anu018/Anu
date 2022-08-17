@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+}
+.section{
+	width: 100%;
+}
+.section .container{
+	width: 80%;
+	display: block;
+	margin: 0px auto;
+	padding: 50px 0px;
+}
+.container .title{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.container .title h1{
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #88941e;
+}
+ 
+.container .title h1::after{
+	content: "";
+	height: 5px;
+	width: 100px;
+	background-color: #c4d156;
+	border-radius: 25px;
+	display: block;
+	margin: auto;
+}
+
+.image-section{
+	float: right;
+	width: 50%;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+.container .contact{
+	position: relative;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+ 	width: 100%;
+ 	height: 80vh;
+ 	padding: 0px 0px;
+	text-align: center;
+	flex-direction: column;
+	margin-bottom: 90px;
+	color: #88941e;
+
+ }
+
+.container .contact p{
+	font-weight: 500;
+     color: black;
+     align-items: center;
+}
+ .con{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	
+}
+.con .contactinfo {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+    
+}
+.con .contactinfo .box{
+	position: relative;
+	padding-right: 400px;
+	top: -250px;
+	left: -80px;
+	border-radius: top;
+	justify-items: left;
+}
+
+.con .contactinfo .box .icon{
+     min-width: -5px;
+
+     height: -5px;
+     display: flex;
+     justify-content: left;
+     align-items: center;
+     border-radius: 100%;  
+     font-size: 50px;
+     color:#f28f92 ;
+    
+}
+.con .contactinfo .box .text{
+	display: flex;
+	margin-right: 80px;
+	font-size: 18px;
+	flex-direction: column;
+	font-weight: 500;
+}
+
+ .contactinfo .box .text h3{
+	font-weight: 600;
+	color: black;
+}
+
+ .container .social{
+ 	width:100%;
+ 	clear:both;
+ 	margin-top: 50px;
+ 	text-align: center;
+ 	display: inline-block;
+ }	
+ .container .social i{
+ 	color: #fff;
+ 	font-size: 22px;
+ 	height: 45px;
+ 	width:45px;
+ 	border-radius: 50%;
+ 	line-height: 45px;
+ 	text-align: center;
+ 	background-color: #f28f92;
+ 	margin:0px 5px;
+
+ }
+ .container .social i:hover{
+ 	color: #fff;
+ 	background-color: #88941e;
+ 	transition: 1s ease;
+ 	transform: rotate(360deg);
+ }

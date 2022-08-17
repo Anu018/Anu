@@ -1,0 +1,181 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Java</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+<nav id="navbar">
+  <div>
+    <header align="center"><a href="https://codepen.io/avilesmiguenicolasv/full/abJPxMV">Basic JAVA</a></header>
+    <a href="#Introduction" class="nav-link">Introduction</a>
+    <a href="#Why_Learn_JAVA?" class="nav-link">Why Learn JAVA?</a>
+    <a href="#Basic_Syntax" class="nav-link">Basic Syntax</a>
+    <a href="#First_Program" class="nav-link">First Program</a>
+    <a href="#Objects_and_Classes" class="nav-link">Objects and Classes</a>
+    <a href="#Constructors" class="nav-link">Constructors</a>
+    <a href="#Basic_Operators" class="nav-link">Basic Operators</a>
+    <a href="#Numbers" class="nav-link">Numbers</a>
+    <a href="#Characters" class="nav-link">Characters</a>
+    <a href="#Reference" class="nav-link last-column">Reference</a>
+  </div>
+</nav>
+<main id="main-doc">
+  <section id="Introduction" class="main-section">
+    <header>Introduction</header>
+    <p>
+      Java programming language was originally developed by Sun Microsystems which was
+initiated by James Gosling and released in 1995 as core component of Sun Microsystems'
+Java platform (Java 1.0 [J2SE]).<br><br>
+The latest release of the Java Standard Edition is Java SE 8. With the advancement of Java
+and its widespread popularity, multiple configurations were built to suit various types of
+platforms. For example: J2EE for Enterprise Applications, J2ME for Mobile Applications.<br><br>
+      The new J2 versions were renamed as Java SE, Java EE, and Java ME respectively. Java
+      is guaranteed to be <b>"Write Once, Run Anywhere."</b>
+    </p>
+  </section>
+    
+  <section id="Why_Learn_JAVA?" class="main-section">
+    <header>Why Learn Java?</header>
+    <p>Java is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Software Development Domain. I will list down some of the key advantages of learning Java Programming:
+       <ul>
+         <li>Object Oriented − In Java, everything is an Object. Java can be easily extended since it is based on the Object model.</li>
+         <li>Platform Independent − Unlike many other programming languages including C and C++, when Java is compiled, it is not compiled into platform specific machine, rather into platform independent byte code. This byte code is distributed over the web and interpreted by the Virtual Machine (JVM) on whichever platform it is being run on.</li>
+         <li>Simple − Java is designed to be easy to learn. If you understand the basic concept of OOP Java, it would be easy to master.</li>
+         <li>Secure − With Java's secure feature it enables to develop virus-free, tamper-free systems. Authentication techniques are based on public-key encryption.</li>
+         <li>Architecture-neutral − Java compiler generates an architecture-neutral object file format, which makes the compiled code executable on many processors, with the presence of Java runtime system.</li>
+         <li>Portable − Being architecture-neutral and having no implementation dependent aspects of the specification makes Java portable. Compiler in Java is written in ANSI C with a clean portability boundary, which is a POSIX subset.</li>
+         <li>Robust − Java makes an effort to eliminate error prone situations by emphasizing mainly on compile time error checking and runtime checking.</li>
+       </ul>
+    </p>
+  </section>
+
+  <section id="Basic_Syntax" class="main-section">
+    <header>Basic Syntax</header>
+    <p>
+      <ul>
+        <li>Object − Objects have states and behaviors. Example: A dog has states - color, name, breed as well as behavior such as wagging their tail, barking, eating. An object is an instance of a class.</li>
+        <li>Class − A class can be defined as a template/blueprint that describes the behavior/state that the object of its type supports.</li>
+        <li>Methods − A method is basically a behavior. A class can contain many methods. It is in methods where the logics are written, data is manipulated and all the actions are executed.</li>
+        <li>Instance Variables − Each object has its unique set of instance variables. An object's state is created by the values assigned to these instance variables.</li>
+      </ul>
+    </p>
+  </section>
+  
+  <section id="First_Program" class="main-section">
+    <header>First Program</header>
+    <h3>Hello World using JAVA</h3>
+    <p>
+      Just to give you a little excitement about Java programming, I'm going to give you a small conventional C Programming Hello World program.<br>
+      </p>
+      <code>
+        public class MyFirstJavaProgram {<br><br>
+
+   /* This is my first java program.<br>
+    * This will print 'Hello World' as the output<br>
+    */<br>
+
+   public static void main(String []args) {<br>
+      System.out.println("Hello World"); // prints Hello World<br>
+   }<br>
+}
+    </code>
+    <p>
+      About Java programs, it is very important to keep in mind the following points.
+      <ul>
+        <li>Case Sensitivity − Java is case sensitive, which means identifier Hello and hello would have different meaning in Java.</li>
+        <li>Class Names − For all class names the first letter should be in Upper Case. If several words are used to form a name of the class, each inner word's first letter should be in Upper Case.<br></li>
+          Example:<br>
+          <code>class MyFirstJavaClass</code><br>
+        <li>Method Names − All method names should start with a Lower Case letter. If several words are used to form the name of the method, then each inner word's first letter should be in Upper Case.<br></li>
+
+          Example:<br>
+          <code>public void myMethodName()</code><br>
+        <li><b>Program File Name</b> − Name of the program file should exactly match the class name.</li>
+      </ul>
+    </p>
+  </section>
+  
+  <section id="Objects_and_Classes" class="main-section">
+    <header>Objects and Classes</header>
+    <p>
+      <ul>
+        <li><b>Object</b> − Objects have states and behaviors. Example: A dog has states - color, name, breed as well as behaviors – wagging the tail, barking, eating. An object is an instance of a class.</li>
+        <li><b>Class</b> − A class can be defined as a template/blueprint that describes the behavior/state that the object of its type support.</li>
+      </ul>
+    </p>
+  </section>
+ 
+  <section id="Constructors" class="main-section">
+    <header>Constructors</header>
+    <p>
+      A constructor initializes an object when it is created. It has the same name as its class and is syntactically similar to a method. However, constructors have no explicit return type.
+    </p>
+    <p>
+      Typically, you will use a constructor to give initial values to the instance variables defined by the class, or to perform any other start-up procedures required to create a fully formed object.
+    </p>
+    <p>
+      All classes have constructors, whether you define one or not, because Java automatically provides a default constructor that initializes all member variables to zero. However, once you define your own constructor, the default constructor is no longer used.
+    </p>
+    <h3>Syntax</h3>
+    <code>
+      class ClassName {<br>
+   ClassName() {<br>
+   }<br>
+}
+    </code>
+  </section>
+
+  <section id="Basic_Operators" class="main-section">
+    <header>Basic Operators</header>
+    <p>
+      Java provides a rich set of operators to manipulate variables. We can divide all the Java operators into the following groups:
+      <ul>
+        <li>Arithmetic Operators</li>
+        <li>Relational Operators</li>
+        <li>Bitwise Operators</li>
+        <li>Logical Operators</li>
+        <li>Assignment Operators</li>
+        <li>Misc Operators</li>
+      </ul>
+    </p>
+  </section>
+  
+  <section id="Numbers" class="main-section">
+    <header>Numbers</header>
+    <p>
+      Normally, when we work with Numbers, we use primitive data types such as byte, int, long, double, etc.
+    </p>
+    <code>
+      int i = 5000;<br>
+      float gpa = 13.65f;<br>
+      double mask = 125;<br>
+    </code>
+  </section>
+
+  <section id="Characters" class="main-section">
+    <header>Characters</header>
+    <p>
+      Normally, when we work with characters, we use primitive data types char.
+    </p>
+    <code>
+      char ch = 'a';<br>
+
+    // Unicode for uppercase Greek omega character
+    char uniChar = '\u039A';<br> 
+
+    // an array of chars
+    char[] charArray ={ 'a', 'b', 'c', 'd', 'e' };<br> 
+    </code>
+  </section>
+
+  <section id="Reference" class="main-section last-column">
+    <header>Reference</header>
+    <p>
+      <ul>
+        <li>All the documentation in this page is taken from <a href="https://www.tutorialspoint.com/java/index.htm" target="_blank">Tutorialspoint</a></li>
+      </ul>
+    </p>
+  </section>
+</main>
+</html>
